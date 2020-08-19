@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+#body {
+    height: 100%
+}
+
+#main {
+    background-color: rgb(70, 70, 70);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+    
+#header {
+    position: fixed;
+    background-color: rgb(175, 135, 23);
+    width: 100%;
+    margin-top: 0;
+}
+
+#header-img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}    
+
+#nav-link {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#nav-link:last-child {
+    border:none;
+}
+
+#nav-a {
+    display: block;
+    color: rgb(238, 196, 79);
+    justify-content: center;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#nav-a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+#about {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  #main {
+    background-color: lightgreen;
+  }
+}
+
+#email {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;  
+}
+
+#email-location {
+    padding-top: 0px;
+}
+
+
+
+
+</style>
+
+
+
+
+<body id="body" style="background-color: rgb(70, 70, 70);">
+    <main id="main">
+
+
+            <h1 id="header" style="margin-top: -8px;">
+                <div>
+                    <div id="logo">
+                        <img id="header-img" src="https://cdn.shopify.com/s/files/1/0549/2681/files/GPC_InversedLogo_Rev_SMALL_CROP.png?v=1579809708">
+                    </div>
+                    <nav>
+                        <ul id="nav-bar">
+                            <li id="nav-link"><a id="nav-a" href="https://www.pcgamingrace.com/products/glorious-model-o-black" target="_blank">The Mice</a></li>
+                            <li id="nav-link"><a id="nav-a" href="https://www.pcgamingrace.com/products/gmmk-full-brown-switch" target="_blank">The Keyboards</a></li>
+                            <li id="nav-link"><a id="nav-a" href="https://www.pcgamingrace.com/products/glorious-jersey" target="_blank">Merch Store</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </h1>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+           
+       
+        
+            <iframe width="1024" height="576" src="https://www.youtube.com/embed/S_xjzcMnJNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <br>
+
+            <div id="about">
+                <p>   
+                Glorious PC Gaming Race was conceived by passionate PC gamers fed up with low-quality, over-priced gaming products that delivered more flash than function. 
+            The mission was to create unique gaming accessories, engineered for premium quality and elite-level performance, sold at everyman prices. 
+            Forged in 2014 from an online community of PC gamers, GPCGR has been challenging the industry with products catered to the needs of serious players who demand the best.
+                </p>
+
+                <p>
+                We claimed our fame with the world’s best over-sized gaming mouse pads. Then we turned the peripherals market on its head with the world’s first “Modular Mechanical Keyboard” 
+            with hot-swappable switches. Along this path to glory, we've been joined by over a million loyal users, captivated by unparalleled performance, reliability, and 
+            customer service. 
+                </p>
+
+                <p>   
+            We’re just getting started! Ascend your battle station. Join the Glorious legion.
+                </p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div id="email">Enter your email here to subscribe to our news letter!</div>
+        
+            <br>
+        <form id="form">
+            <input id="email-location" type="email" required placeholder="Email Address">
+
+            <input type="submit" formaction="https://www.freecodecamp.com/email-submit">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        </form>
+    </main>
+</body>
